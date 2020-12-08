@@ -1,0 +1,683 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+
+
+
+
+/*General 1*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+#TituloSimpson {
+    display:block;
+    margin:auto;
+    margin-top: 15px;
+    width: 20%;
+    height: 20%;
+}
+
+#TituloSimpson:hover{
+  transform: scale(1.1);
+}
+
+body {
+    margin: 0;
+    background-color: #FACA4C;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 20px;   
+}
+
+.topnav a {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 15px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+  font-size: 22px; 
+}
+
+  
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 45px;
+}
+  
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+  float: right;
+  display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+/*Cierre General 1*/
+
+/*Textos y fotos de la página*/
+#menu1{
+  width: 30px;
+  height: 30px;
+}
+
+#princ1{
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 960px;
+  text-align: justify;
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  font-family: cursive
+}
+
+#maggie{
+  height: 580px;
+  width: auto;
+  margin-left: -920px;
+  margin-top: 30px;
+  position: absolute;
+  border-radius: 45px;
+}
+
+#princ2{
+  margin-right: 50px;
+  margin-left: 75px;
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+  position: absolute;
+  display: inline-block;
+  font-family: cursive;
+}
+
+#casasimpsons{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* Cierre Textos y fotos de la página*/
+
+/* NAV */
+  #myTopnav{
+  font-family: "MiFuente";
+  text-align: center;
+}
+
+#inicses{
+  width: 190px; 
+  height: 70px; 
+  border: 7px solid #555;
+  border-radius: 45px;
+  float: right;
+  margin-top: 4px;
+  
+}
+/* Cierre NAV */
+
+/* FOOTER */
+footer{
+  background-color: #333;
+  font-family: cursive;
+  
+
+}
+
+#imgrrss{
+  width: 50px;
+  height: 50px;
+}
+
+#imgrrss:hover{
+  transform: scale(1.5);
+}
+
+#copycolor{
+  color: white;
+  margin-top: -20px;
+}
+
+hr, .hrcolor {
+  height: 1px;
+  border: 0;
+  color: #666;
+  background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+
+}
+/*INICIO SESION*/
+
+form{
+  margin-top: 30px;
+  margin: 30px;
+  margin-left: 790px;
+}
+
+#registro{
+  font-family: "MiFuente";
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;
+  margin-left: 790px;
+}
+
+label{
+  font-family: "MiFuente";
+  font-size: 25px;
+}
+
+#buttonreg{
+  font-family: "MiFuente";
+  margin-left: 70px;
+  border: 3px solid #555;
+  border-radius: 45px;
+}
+
+.input{
+  font-family: cursive;
+  background-color: #333;
+  color: white;
+  border-radius: 7px;
+}
+
+#bgr{
+  border-block-start-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Registro*/
+#fecha{
+  font-family: cursive;
+  background-color: #333;
+  color: white;
+  border-radius: 7px;
+}
+
+#inicsesion{
+  font-family: "MiFuente";
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#totregistro{
+  min-height: 52vh;
+
+}
+
+
+
+/*Fin Registro*/
+
+/*Momentos*/
+/*NAV Moments*/
+
+nav:not(#navlugares){
+  height: 60px;
+  background-color:#17181C;
+  text-align: center;
+}
+
+nav ul{
+ list-style: none;
+ display: inline-block;
+ padding: 18px;
+}
+
+nav ul li{
+  float: left;
+  font-family: "MiFuente";
+}
+
+nav ul li a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px;
+  font-size: small;
+}
+
+nav ul li a:hover{
+  background-color: #ddd;
+  color: black;
+  border-radius: 45px;
+  text-decoration:none;
+}
+
+/*Fin NAV Moments*/
+
+
+#borrar{
+  font-family: "MiFuente";
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#arribapng{
+  width: 90px;
+  height: 90px;
+}
+
+#arribapng:hover{
+  transform: scale(1.1);
+}
+
+
+.titulomomen{
+  font-family: "MiFuente";
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+#textomomen{
+  font-family: "MiFuente";
+  text-align: center;
+  margin-left: 370px;
+  margin-right: 370px;
+  font-size: 20px;
+}
+
+#momentos{
+  margin-top: 20px;
+}
+
+.filacentrada{
+  text-align: center;
+}
+
+#doblajetext{
+  font-family: "MiFuente";
+  
+}
+/*Momentos*/
+
+
+/*Lugares*/
+  /*Carrusel*/
+
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+  
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+  /*Fin CARRUSEL*/
+
+#ayunta{
+  margin-top: 10px;
+  height: 90%;
+  width: 110%;
+}
+
+#tiendarasca{
+  height: 83%;
+  width: 83%;
+  margin-left: 55px;
+}
+
+#textolugares{
+  font-family: "MiFuente";
+  text-align: center;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  background: black;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  border-radius: 45px;
+}
+
+.gotopbtn:hover{
+  transform: scale(1.3);
+  color: #FACA4C;
+}
+
+
+#lugarestext{
+  font-family: "MiFuente";
+  text-align: center;
+}
+
+#subtitulolugar{
+  font-family: "MiFuente";
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+
+/*Img al lado de texto*/
+div.casalugares img.izquierda {
+  float: left;
+  margin-right: 15px;
+}
+
+div.casalugares img.derecha {
+  float: right;
+  margin-left: 15px;
+}
+
+div.reset {
+  clear: both;
+}   
+/*Fin Img al lado de texto*/
+
+#imagenluagaressub{
+  width: 25%;
+  height: 25%;
+  margin-left: 30px;
+}
+
+#textoslugares{
+  margin-left: 290px;
+  margin-right: 30px;
+  margin-top: 80px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#margenabajoiglesia{
+  width: 25%;
+  height: 25%;
+  margin-left: 30px;  
+  margin-bottom: 50px;
+}
+
+/*Fin Lugares*/
+
+
+
+
+/*Personajes*/
+@import "lesshat";
+
+@white: #FFFFFF;
+
+
+.panel {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  display: block;
+  margin: 10% auto;
+  perspective: 600px;
+}
+
+.front_image,.back_image{
+  display:block;
+  width:250px;
+  height:350px;
+  font-family: cursive;
+  text-align: justify;
+  color: #17181C;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.panel .front {
+  float: none;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  margin: auto;
+  z-index: 900;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+  .border-top-left-radius(3px);
+  .border-top-right-radius(3px);
+
+  transform: rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: all .4s ease-in-out;
+  
+}
+.panel:hover .front{
+  z-index: 900;
+  transform: rotateY(180deg);
+}
+
+.panel .back {
+  float: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index:800;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: all .4s ease-in-out;
+}
+
+.panel:hover .back {
+  z-index: 1000;
+  transform: rotateX(0deg) rotateY(0deg);
+}
+View Compiled
+
+Resources
+
+#supu{
+  margin-right: -300px;
+  border-spacing: 20px;
+}
+
+
+p, #nombresneg{
+  font-family: cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+#lugarestitulo{
+  margin-top: 20px;
+  font-family: "MiFuente";
+  text-align: center;
+  font-size: 50px;
+}
+
+
+#textolugares{
+  margin-top: 20px;
+  font-family: "MiFuente";
+  text-align: center;
+}
+
+table{
+ width: 90%;
+  margin-bottom: 20;
+}
+
+
+
+/*Fin Personajes*/
+
+
+/*Credits*/
+#Creditos, #redessocialescred{
+  margin-top: 25px;
+  font-family: "MiFuente";
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#textcreditos{
+  color: white;
+  font-family: cursive;
+}
+
+#textcreditos1{
+  color: white;
+  font-family: cursive;
+  margin-top: 40px;
+}
+
+
+
+#matt{
+  float: right;
+  margin-right: 170px;
+  margin-top: -100px;
+  po
+}
+
+#matt:hover{
+  transform: scale(1.1);
+}
+
+#disney{
+  width: 120px;
+  margin-left: 1030px;
+  margin-top: -100px;
+  background-color: #FACA4C70;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+#disney:hover {
+  background-color: #FACA4C90;
+  transform: scale(1.1);
+}
+
+
+
+/*Fin Credits*/
+
+#tablita{
+  width: 30%;
+  background-color: #FACA4C80;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#centrado{
+  margin-left: 10px;
+}
+
+.rrssdisney{
+  width: 50px;
+  height: 50px;
+}
+
+.rrssdisney:hover{
+  transform: scale(1.1);
+}
